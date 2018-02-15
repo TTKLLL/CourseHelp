@@ -11,10 +11,7 @@
     <link href="../css/TabStyle.css" rel="stylesheet" />
     <link href="../css/teacher.css" rel="stylesheet" />
     <style type="text/css">
-        .gridviewItem {
-            height: 30px;
-            font-size: 18px;
-        }
+  
         #topTitle {
             padding-top:5px;
             padding-left:5px;

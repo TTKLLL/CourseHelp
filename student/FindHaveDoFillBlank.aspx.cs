@@ -28,7 +28,7 @@ public partial class student_FindHaveDoFillBlank : System.Web.UI.Page
         pds.DataSource = result;
         pds.PageSize = 1;
         pds.AllowPaging = true;
-        pageCount.Text = pds.PageCount.ToString();//设置总的页数
+        pageCount.Text = pds.PageCount.ToString();//没几节课设置总的页数
         pds.CurrentPageIndex = Convert.ToInt32(currentPageCount.Text) - 1;//获取当前的页码
         if (pds.IsFirstPage)
         {
